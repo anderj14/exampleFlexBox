@@ -1,0 +1,14 @@
+.grid{
+    display: grid;
+    grid-template-columns: 200px 250px 300px;
+    grid-template-rows: auto 100px;
+    row-gap: 1em;
+}
+
+.grid div{
+    background-color: red;
+    padding: 1em;
+}
+.grid div:hover{
+    border: 1px solid yellow;
+}
